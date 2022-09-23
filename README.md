@@ -8,9 +8,9 @@
 ### Рассмотрим работу программы на реальных примерах
 #### Шифруем 'hello world' со сдвигом 3 
 ![Безымянный](https://user-images.githubusercontent.com/53860694/192058210-7e793416-b587-4cc4-8e56-1ea7538ef7ca.jpg)
-#### Шифруем 'hello new world' со сдвигом 5'
+#### Шифруем 'hello new world' со сдвигом 5
 ![Безымянный](https://user-images.githubusercontent.com/53860694/192059968-a9011b8b-dbff-4e1f-9361-dd4c51335756.jpg)
-#### Дешифруем 'vguvkpi' со сдвигом '2'
+#### Дешифруем 'vguvkpi' со сдвигом 2
 ![Безымянный](https://user-images.githubusercontent.com/53860694/192060291-7485da8e-d44c-40bf-8c88-d04c98a71890.jpg)
 
 
