@@ -1,6 +1,11 @@
-string = input('Шифр цезаря. Введите на английском строку, которую хотите зашифровать/расшифровать: ')
+# from curses.ascii import isupper
+
+
+input_string = input('Шифр цезаря. Введите на английском строку, которую хотите зашифровать/расшифровать: ')
 quest = input('Хотите зашифровать или дешифровать? (введите 1 или 2): ')
 step = int(input('Введите шаг сдвига: '))
+
+string = input_string.lower()
 
 abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 new_abc = abc
@@ -28,5 +33,13 @@ def MakeNewString():
                 new_string += ' '
         return new_string
 
+string_out = []
+for i in MakeNewString():
+    string_out.append(i)
 
-print(MakeNewString())
+for i in input_string:
+    if i.isupper():
+        string_out[input_string.index(i)] = string_out[input_string.index(i)].upper()
+
+
+print(''.join(string_out))
